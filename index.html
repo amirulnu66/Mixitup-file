@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MixItup Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style/custom.css">
+</head>
+<body>
+<section class="custom-mixitup">
+<div class="container clear">
+	<div class="portfolio clear">
+		<ul>
+		
+		<li class="filter" data-filter="all">All</li>
+		<li class="filter" data-filter=".design">Design</li>
+		<li class="filter" data-filter=".blog">Blog</li>
+		<li class="filter" data-filter=".discripton">Discripton</li>
+		<li class="filter" data-filter=".determent">Determent</li>
+
+		</ul>
+	</div>
+	<div class="all gallery">
+	<div class="mix determent design">
+		<img src="img/featured_work-2.jpg">	
+	</div>
+	<div class="mix discripton">
+		<img src="img/featured_work-3.jpg">	
+	</div>
+	<div class="mix blog discripton">
+		<img src="img/featured_work-5.jpg">	
+	</div>
+	<div class="mix blog design">
+		<img src="img/featured_work-8.jpg">	
+	</div>
+	<div class="mix discripton design">
+		<img src="img/featured_work-6.jpg">	
+	</div>
+	<div class="mix blog determent">
+		<img src="img/featured_work-7.jpg">	
+	</div>
+	</div>
+</div>
+</section>	
+	<div class="clear"></div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/mixitup.min.js"></script>
+	
+	<script>
+		var mixer = mixitup('.container');	    
+	</script>
+</body>
+</html>
